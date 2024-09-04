@@ -1,11 +1,6 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { TestPage } from "@/components/domains/pages/TestPage";
 
 export default function page() {
-  return (
-    <>
-      <p>test</p>
-      <Button variant="destructive">Click me</Button>
-    </>
-  );
+  return <TestPage />;
 }
